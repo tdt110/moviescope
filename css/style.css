@@ -85,6 +85,14 @@ img { max-width: 100%; display: block; }
 }
 .header-links a:hover { color: var(--accent); border-color: var(--accent); }
 
+.result-badge {
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+  padding: 6px 12px;
+  border-radius: 999px;
+  cursor: default;
+}
+
 /* theme toggle switch */
 .theme-switch {
   display: inline-flex;
